@@ -20,3 +20,5 @@ NSArray *items = [NSArray arrayWithObjects: gifItem, @"some string", @"http://so
 // Use it in UIActivityViewController
 UIActivityViewController *activityController = [[[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:nil] autorelease];
 [UnityGetGLViewController() presentViewController:activityController animated:YES completion:NULL];
+
+P.S. I am a iOS newb and code may be messy and hard coded, will come back for it when I getting better in Objective-C
