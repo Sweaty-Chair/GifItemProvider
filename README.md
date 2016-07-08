@@ -12,12 +12,15 @@ Upload to Giphy first, the provide the giphy URL to UIActivityViewController, Fa
 Usage:
 
 // Init the GifItemProvider
+
 GifItemProvider *gifItem = [[GifItemProvider alloc] initWithPlaceholderItem:@"file://myGIFfilePath"];
 
 // Includess the gifItem in an array
+
 NSArray *items = [NSArray arrayWithObjects: gifItem, @"some string", @"http://some.url", nil];
 
 // Use it in UIActivityViewController
+
 UIActivityViewController *activityController = [[[UIActivityViewController alloc] initWithActivityItems:items applicationActivities:nil] autorelease];
 [UnityGetGLViewController() presentViewController:activityController animated:YES completion:NULL];
 
