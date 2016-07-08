@@ -7,7 +7,7 @@ Therefore, I have to use SLRequest to upload the GIF. When the SLRequest is done
 The downside of that is no preview share sheet and users cannot type their own message anymore.
 
 Facebook:
-Upload to Giphy first, and provide the giphy URL to UIActivityViewController in stead of the file, Facebook with recognize it and show the animated GIF
+Upload to Giphy first, and provide the giphy URL to UIActivityViewController instead of the file contents, Facebook with recognize it and show the animated GIF
 
 Usage:
 
